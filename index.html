@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app/scss/style.css">
+  <title>Front-end Website Developer | Anshul Singh</title>
+
+</head>
+<body>
+
+  <header class="header">
+    <div class="overlay has-fade"></div>
+
+    <nav class="container container--pall flex flex-jc-sb flex-ai-c">
+        <a href="/" class="header__logo">
+          <img src="images/PAPA REACT.svg" alt="Easybank" />
+        </a>
+
+        <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+
+        <div class="header__links hide-for-mobile">
+          <a href="#">Home</a><a href="#first">Intro</a><a href="#second">Skills</a><a href="#third">Projects</a><a href="#">Contact</a>
+        </div>
+
+        <a href="https://www.linkedin.com/in/anshul-singh-070836196/detail/contact-info/" class="button header__cta hide-for-mobile">Connect With Me!</a>
+    </nav>
+
+    <div class="header__menu has-fade">
+      <a href="#">Home</a>
+      <a href="#first">Intro</a>
+      <a href="#second">Skills</a>
+      <a href="#third">Projects</a>
+      <a href="#">Contact</a>
+    </div>
+
+  </header>
+
+  <section class="hero" id="first">
+    <div class="container">
+        <div class="hero__image"></div>
+        
+        <div class="hero__text container--pall">
+          <h1>
+            SHORT INRO!
+          </h1>
+          <p>
+            Hey! I am Anshul.
+I build interactive websites that run across platforms & devices
+          </p>
+          <a href="https://www.linkedin.com/in/anshul-singh-070836196/detail/contact-info/" class="button hero__cta">Connect With Me!</a>
+        </div>
+    </div>
+  </section>
+
+  <section class="feature" id="second">
+
+    <div class="feature__content container container--pall">
+
+        <div class="feature__intro">
+            <h2>My Top Front-End Skills</h2>
+            <p>
+              I have Listed some of My top Front-End Skills
+            </p>
+        </div>
+    
+        <div class="feature__grid">
+          
+          <div class="feature__item">
+            <div class="feature__icon"><img src="img_svg/react.svg" /></div>
+            <div class="feature__title">
+              React JS
+            </div>
+            <div class="feature__description">
+              React is an open-source front-end JavaScript library for building user interfaces or UI components. 
+            </div>
+          </div>
+    
+          <div class="feature__item">
+            <div class="feature__icon"><img src="img_svg/html.svg" /></div>
+            <div class="feature__title">
+              HTML 5
+            </div>
+            <div class="feature__description">
+              HTML5 is a markup language used for structuring and presenting content on the World Wide Web. 
+            </div>
+          </div>
+    
+          <div class="feature__item">
+            <div class="feature__icon"><img src="img_svg/js.svg" /></div>
+            <div class="feature__title">
+              JavaScript
+            </div>
+            <div class="feature__description">
+              JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. 
+            </div>
+          </div>
+    
+          <div class="feature__item">
+            <div class="feature__icon"><img src="img_svg/sass.svg" /></div>
+            <div class="feature__title">
+             SASS
+            </div>
+            <div class="feature__description">
+              Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. SassScript is the scripting language itself. 
+            </div>
+          </div>
+    
+        </div>
+    </div>
+
+  </section>
+
+  <section class="articles" id="third">
+
+  <div class="article__content container container--pall">
+
+    <h2>Latest Projects</h2>
+
+    <div class="article__grid">
+
+      <a href="https://github.com/anshul2807/covid-19_tracker_reactjs" class="article__item">
+        <div class="article__image" style="background-image: url('img_svg/covid19.webp')"></div>
+        <div class="article__text">
+          <div class="article__author">By Anshul Singh</div>
+          <div class="article__title">COVID-19 TRACKER </div>
+          <div class="article__description">Covid-19 tracker is used to get exact stats about corona cases and it is buid using React js .</div>
+        </div>
+      </a>
+
+      <a href="https://spotify-clone-d0830.web.app/" class="article__item">
+        <div class="article__image" style="background-image: url('img_svg/spotify.png')"></div>
+        <div class="article__text">
+          <div class="article__author">By Anshul Singh</div>
+          <div class="article__title">SPOTIFY CLONE</div>
+          <div class="article__description">Spotify clone is buid using React js and Redux Also I have used Spotify API's .</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/anshul2807/Insta-clone-React-Js" class="article__item">
+        <div class="article__image" style="background-image: url('img_svg/insta.jpg')"></div>
+        <div class="article__text">
+          <div class="article__author">By Anshul Singh</div>
+          <div class="article__title">INSTAGRAM CLONE</div>
+          <div class="article__description">Instagram clone is build using React js, Material UI, and Context API, For DataBase and BackEnd I have used FireBase.</div>
+        </div>
+      </a>
+
+      <a href="https://github.com/anshul2807/Todo_App-React-JS" class="article__item">
+        <div class="article__image" style="background-image: url('img_svg/todo.jfif')"></div>
+        <div class="article__text">
+          <div class="article__author">By Anshul Singh</div>
+          <div class="article__title">TODO AND NOTE APP</div>
+          <div class="article__description">TODO and NOTE APP is build using React js and  Material UI,  For DataBase and BackEnd I have used FireBase.</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+
+        <a class="footer__logo" href="#">
+            <img src="images/PAPA REACT.svg" />
+          </a>
+      
+          <div class="footer__social">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><title>Facebook</title><path fill="#FFF" d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104C20 .494 19.506 0 18.896 0z"/></svg>
+            </a>
+            <a href="https://www.youtube.com/channel/UCkhE9VqmFPE-Oz6mgC8Hagw">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><title>YouTube</title><path fill="#FFF" d="M10.333 0c-5.522 0-10 4.478-10 10 0 5.523 4.478 10 10 10 5.523 0 10-4.477 10-10 0-5.522-4.477-10-10-10zm3.701 14.077c-1.752.12-5.653.12-7.402 0C4.735 13.947 4.514 13.018 4.5 10c.014-3.024.237-3.947 2.132-4.077 1.749-.12 5.651-.12 7.402 0 1.898.13 2.118 1.059 2.133 4.077-.015 3.024-.238 3.947-2.133 4.077zM8.667 8.048l4.097 1.949-4.097 1.955V8.048z"/></svg>
+            </a>
+            <a href="https://github.com/anshul2807">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><title>GitHub</title><path fill="#FFF"  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/anshul-singh-070836196/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><title>LinkedIn</title><path fill="#FFF" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><title>Instagram</title><path fill="#FFF" d="M10.333 1.802c2.67 0 2.987.01 4.042.059 2.71.123 3.976 1.409 4.1 4.099.048 1.054.057 1.37.057 4.04 0 2.672-.01 2.988-.058 4.042-.124 2.687-1.386 3.975-4.099 4.099-1.055.048-1.37.058-4.042.058-2.67 0-2.986-.01-4.04-.058-2.717-.124-3.976-1.416-4.1-4.1-.048-1.054-.058-1.37-.058-4.041 0-2.67.01-2.986.058-4.04.124-2.69 1.387-3.977 4.1-4.1 1.054-.048 1.37-.058 4.04-.058zm0-1.802C7.618 0 7.278.012 6.211.06 2.579.227.56 2.242.394 5.877.345 6.944.334 7.284.334 10s.011 3.057.06 4.123c.166 3.632 2.181 5.65 5.816 5.817 1.068.048 1.408.06 4.123.06 2.716 0 3.057-.012 4.124-.06 3.628-.167 5.651-2.182 5.816-5.817.049-1.066.06-1.407.06-4.123s-.011-3.056-.06-4.122C20.11 2.249 18.093.228 14.458.06 13.39.01 13.049 0 10.333 0zm0 4.865a5.135 5.135 0 100 10.27 5.135 5.135 0 000-10.27zm0 8.468a3.333 3.333 0 110-6.666 3.333 3.333 0 010 6.666zm5.339-9.87a1.2 1.2 0 10-.001 2.4 1.2 1.2 0 000-2.4z"/></svg>
+            </a>
+          </div>
+      
+          <div class="footer__links col1">
+            <a href="#first">Intro</a>
+            <a href="#second">Skills</a>
+            <a href="#third">Projects</a>
+          </div>
+      
+          <div class="footer__links col2">
+            <a href="#">Contact</a>
+            <a href="#">Support</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+      
+          <div class="footer__cta">
+            <a href="https://www.linkedin.com/in/anshul-singh-070836196/detail/contact-info/" class="button">Connect With Me!</a>
+          </div>
+      
+          <div class="footer__copyright">
+            &copy; PAPAREACT. All Rights Reserved.
+          </div>
+
+    </div>    
+  </footer>
+
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  <script src="/app/js/script.js"></script>
+</body>
+</html>
