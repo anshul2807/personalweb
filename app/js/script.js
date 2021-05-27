@@ -27,3 +27,17 @@ btnHamburger.addEventListener('click', function(){
 
   }  
 });
+
+// Animation
+var i = 0;
+var txt = 'SHORT INTRO!';
+var speed = 200;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("hero__intro").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+typeWriter();
